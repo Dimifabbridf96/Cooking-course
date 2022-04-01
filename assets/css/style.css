@@ -45,7 +45,7 @@ nav{
     line-height: 100px;
     letter-spacing: 2px;
 }
-.contact{
+.contact-menu{
     float: right;
 }
 .welcome{
@@ -209,4 +209,75 @@ nav{
     float: left;
     width: 33%;
 }
+#contact-form{
+    height: 700px;
+    width: 80%;
+    background-color: #d2d2d2;
+    margin: 0 auto;
+}
+label{
+    margin: 20px;
+}
+input{
+    margin: 5px 20px;
+    line-height: 30px;
+    font-size: 15px;
+}
+.c-input{
+    border: 2px solid #000;
+    border-radius: 5px;
+    width: 70%;
+}
+.left-side-contact {
+    height: 600px;
+    border: 2px solid #000;
+    width: 32%;
+    margin-left: 10px;
+    float: left;
+}
+textarea{ 
+    margin: 10px 20px;
+    overflow: auto;
+    font-size: 15px;
+}
+   
+.submit{
+    padding: 20px;
+    margin: 41px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-color:#ecd9ba ;
+}
+.right-side-contact{
+    height: 600px;
+    border: 2px solid #000;
+    width: 32%;
+    margin-right: 10px;
+    float: right;
+}
+.right-side-contact h3{
+    font-size: 200%;
+}
+.call{
+    padding: 40px;
+    margin: 20px ;
+    border: 2px solid #000;
+    border-radius: 15px;
+    
+}
+tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
 
+tr, th, td {
+	text-align: left;
+}
+
+th, td {
+	border: 1px solid black;
+	padding: 5px;
+}
+.grid{
+    margin-left: 20px;
+}

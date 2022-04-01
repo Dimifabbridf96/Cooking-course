@@ -4,11 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Cooking course focused on research the real meaning of taste">
+    <meta name="keywords" content="Cooking, course, taste, passion, carrer, learning">
+    <title>Taste & Passion</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>
-        contactus
+    <header>
+    <h1 id="logo">
+        Taste & Passion
     </h1>
+    <nav id="menu">
+        <ul> 
+            <li>
+                <a href="index.html" > Home </a>
+            </li>
+            <li>
+                <a href="cooking-course.html"> Cooking Course </a>
+            </li>
+            <li class="contact-menu" class="active">
+        <a href="contactus.html"> Contact Us</a>
+    </li>
+    </ul>
+</nav>
+</header>
+<section id="contact-form">
+    <br>
+<h2 class="center">
+    Contact Us 
+</h2>
+<div class="left-side-contact">
+    
+    <h3 class="center">
+        Write me <i class="fa-solid fa-at"></i>
+    </h3>
+    <form action="mailto:dimi.fabbri@gmail.com" method="POST" class="contact">
+    <label for="fname">First Name</label>
+    <br>
+    <input type="text" placeholder="Enter your first name" class="c-input" required> 
+    <br>
+    <br>
+    <label for="lname">Last Name</label>
+    <br>
+    <input type="text" placeholder="Enter your last name" class="c-input" required>
+    <br>
+    <br>
+    <label for="email">Email Address</label>
+    <br>
+    <input type="email" placeholder="Enter your email address" class="c-input" required>
+    <br>
+    <br>
+    <label for="text"> How can I help you ?</label>
+    <br>
+    <textarea class="c-input" id="text" rows="5" name="questions" maxlength="200" placeholder="Write me here"></textarea>
+    <button type="submit" class="submit">
+        Submit
+    </button>
+</div>
+<div class="right-side-contact">
+<h3 class="center">
+    Call me 
+</h3>
+<table class="grid">
+    <tr>
+        <th>Days</th>
+        <th>Hours</th>
+    </tr>
+    <tr>
+    <td>
+        Monday - Friday
+    </td>
+    <td>
+        9.00 - 14.00/ 15.00 - 18.00
+    </td>
+</tr>
+<tr>
+    <td>
+        Weekend
+    </td>
+    <td>
+        10.00 - 14.00
+    </td>
+</tr>
+</table>
+<br>
+<input type="button" onclick="alert('You can contact me at this number +353 021 232 2800')" value="Call Me!" class="call">
+</div>
+</form>
+</section>
+
+<footer >
+    
+    <ul class="social-networks" >
+        <br>
+        <li>
+            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (open in new tab)" ><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li><a href="https://twitter.com"target="_blank" rel="noopener" aria-label="Visit our Twitter page (open in new tab)" ><i class="fa-brands fa-twitter-square"></i></a></li>
+        <li><a href="https://www.instagram.com"target="_blank" rel="noopener" aria-label="Visit our Instagram page (open in new tab)" ><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (open in new tab)" ><i class="fa-brands fa-youtube"></i></a></li>
+        
+        <p>Dimitri 2022</p>
+    </ul>
+
+ </footer>
+<script src="https://kit.fontawesome.com/1ee7458bb3.js" crossorigin="anonymous"></script>  
 </body>
 </html>
