@@ -55,21 +55,33 @@ nav{
     border: 2px solid #000;
     border-top: none;
 }
-#school{
+.school{
     height: 400px;
     border: 2px solid #000;
+    border-top: none;
 }
-#left{
-    width: 33%;
-    float: left;
-}
+
 #hero-image{
     background: url(../image/cooking-course.jpg) no-repeat center center;
     background-size: cover;
-    height: 250px;
-    width: inherit;
+    height: 275px;
+    margin: 0 20px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    float: left;
+    width: 30%;
 }
-#center{
+
+.center{
     text-align: center;
     margin: 10px 0;
+}
+#right{
+  width: 65%;
+  margin: 10px 20px;
+  float: right;
+  text-align: left;
+}
+#right h3{
+    border-bottom: 2px solid #000;
 }
