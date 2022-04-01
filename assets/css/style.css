@@ -60,7 +60,10 @@ nav{
     border: 2px solid #000;
     border-top: none;
 }
-
+.container{
+    display: flex;
+    gap: 20px;
+}
 #hero-image{
     background: url(../image/cooking-course.jpg) no-repeat center center;
     background-size: cover;
@@ -76,8 +79,8 @@ nav{
     text-align: center;
     margin: 10px 0;
 }
-#right{
-  width: 65%;
+.right{
+  width: 60%;
   margin: 10px 20px;
   float: right;
   text-align: left;
@@ -113,12 +116,10 @@ nav{
     background-size: contain;
     }
   
-.right-side{
+.center-side{
     height: 300px;
     border: 2px solid #000;
     width: 32%;
-    margin-right: 10px;
-    float: right;
 }
 .right-side a{
     font-size: 1.75rem;
@@ -134,11 +135,10 @@ nav{
     font-size: 1.5rem;
     margin: 0 50px;
 }
-.center-side{
+.right-side{
     height: 300px;
     border: 2px solid #000;
     width: 32%;
-    margin: 0 auto;
 }
 .ingredients{
     background: url(../image/ingredients.jpg) no-repeat center center;
@@ -166,3 +166,47 @@ nav{
 .social-networks a{
     color: #000;
 }
+
+.themes{
+    line-height: 300px;
+    border: 2px solid #000;
+    background-color: #d2d2d2;
+    text-align: center;
+}
+.grey{
+    background-color:#d2d2d2 ;
+}
+.row{
+    height: 400px;
+}
+.left-knife{
+    background: url(../image/knife.jpg) no-repeat center center;
+    background-size: cover;
+    height: 275px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    float: left;
+    width: 33%;
+}
+.left-techniques{
+    background: url(../image/olive-butter_1024x1024.jpg) no-repeat center center;
+    background-size: cover;
+    height: 275px;
+    margin: 40px 10px ;
+    border-radius: 50%;
+    border: 2px solid #000;
+    float: left;
+    width: 33%;
+}
+.left-ingredients{
+    background: url(../image/ingredients.jpg) no-repeat center center;
+    background-size: cover;
+    height: 275px;
+    margin: 40px 10px ;
+    border-radius: 50%;
+    border: 2px solid #000;
+    float: left;
+    width: 33%;
+}
+
