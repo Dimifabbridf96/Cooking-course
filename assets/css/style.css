@@ -92,12 +92,18 @@ nav{
     margin-left: 10px;
     float: left;
 }
+
 .left-side h2{
     text-align: center;
 }
 .left-side p{
     font-size: 1.5rem;
     margin: 0 7.5px;
+}
+.left-side a{
+    font-size: 1.75rem;
+    text-decoration: none;
+    margin-left: 40px;
 }
 .top{
     height: 100px;
@@ -113,6 +119,12 @@ nav{
     width: 32%;
     margin-right: 10px;
     float: right;
+}
+.right-side a{
+    font-size: 1.75rem;
+    text-decoration: none;
+    margin-left: 40px;
+
 }
 .butter{
     background: url(../image/olive-butter_1024x1024.jpeg) no-repeat center center;
@@ -136,10 +148,14 @@ nav{
     font-size: 1.5rem;
     margin: 0 50px;
 }
-
+.center-side a{
+    font-size: 1.75rem;
+    text-decoration: none;
+    margin-left: 40px;
+}
 .social-networks{
     background-color: #ecd9ba;
-    line-height: 100px;
+    height: 100px;
      text-align: center;
 }
 .social-networks li{
