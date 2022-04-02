@@ -18,7 +18,7 @@ h1{
 /* navigation links */
 nav{
     border: 2px solid #000;
-    background-color: #ecd9ba;
+    background-color: #ffffcd;
 }
 #menu{
     text-align: center;
@@ -48,21 +48,28 @@ nav{
 .contact-menu{
     float: right;
 }
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 .welcome{
     text-align: center;
     letter-spacing: 4px;
-    line-height: 200px;
-    border: 2px solid #000;
-    border-top: none;
+    line-height: 300px;
+   background:url(../image/the-original-innovators-FT-MAG0220-2000.jpg) no-repeat center center;
+   background-size: cover;
+}
+.welcome h2, .welcome i{
+    color: #fff;
 }
 .school{
     height: 400px;
-    border: 2px solid #000;
-    border-top: none;
 }
 .container{
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 #hero-image{
     background: url(../image/cooking-course.jpg) no-repeat center center;
@@ -77,20 +84,17 @@ nav{
 
 .center{
     text-align: center;
-    margin: 10px 0;
+    margin: 1rem 0;
 }
 .right{
   width: 60%;
-  margin: 10px 20px;
+  margin: 1rem 1.25rem;
   float: right;
   text-align: left;
 }
-#right h3{
-    border-bottom: 2px solid #000;
-}
+
 .left-side{
     height: 300px;
-    border: 2px solid #000;
     width: 32%;
     margin-left: 10px;
     float: left;
@@ -110,15 +114,14 @@ nav{
 }
 .top{
     height: 100px;
-    border: 1px solid #000;}
+}
     .knife{  
-        background: url(../image/knife.jpg) no-repeat center center;
-    background-size: contain;
+        background: url(../image/knife.jpeg) no-repeat center center;
+    background-size: cover;
     }
   
 .center-side{
     height: 300px;
-    border: 2px solid #000;
     width: 32%;
 }
 .right-side a{
@@ -128,7 +131,7 @@ nav{
 
 }
 .butter{
-    background: url(../image/olive-butter_1024x1024.jpeg) no-repeat center center;
+    background: url(../image/cooking\ tec.jpg) no-repeat center center;
     background-size: contain;
 }
 .right-side p{
@@ -137,12 +140,11 @@ nav{
 }
 .right-side{
     height: 300px;
-    border: 2px solid #000;
     width: 32%;
 }
 .ingredients{
-    background: url(../image/ingredients.jpg) no-repeat center center;
-    background-size: contain;
+    background: url(../image/Cooking-Guides-Ingredient-Guides-Cooking-Ingredients-1060x397.jpg) no-repeat center center;
+    background-size: cover;
 }
 .center-side p{
     font-size: 1.5rem;
@@ -154,7 +156,7 @@ nav{
     margin-left: 40px;
 }
 .social-networks{
-    background-color: #ecd9ba;
+    background-color: #ffffcd;
     height: 100px;
      text-align: center;
 }
@@ -169,33 +171,39 @@ nav{
 
 .themes{
     line-height: 300px;
-    border: 2px solid #000;
-    background-color: #d2d2d2;
+     background: url(../image/Chefs-Compliments-fish-lesson.jpeg) no-repeat center center;
+    background-size: cover;
     text-align: center;
+    color: #fff;
 }
 .grey{
-    background-color:#d2d2d2 ;
+    background-color:#e3e4e5 ;
 }
+
 .row{
     height: 400px;
 }
+.right-course{
+    width: 60%;
+    margin: 4rem 1.25rem;
+    float: right;
+    text-align: left;
+  }
 .left-knife{
     background: url(../image/knife.jpg) no-repeat center center;
     background-size: cover;
     height: 275px;
-    margin: 10px;
+    margin: 3.5rem;
     border-radius: 50%;
-    border: 2px solid #000;
     float: left;
     width: 33%;
 }
 .left-techniques{
-    background: url(../image/olive-butter_1024x1024.jpg) no-repeat center center;
+    background: url(../image/cooking\ tec.jpg) no-repeat center center;
     background-size: cover;
     height: 275px;
-    margin: 40px 10px ;
+    margin: 3.5rem ;
     border-radius: 50%;
-    border: 2px solid #000;
     float: left;
     width: 33%;
 }
@@ -203,9 +211,8 @@ nav{
     background: url(../image/ingredients.jpg) no-repeat center center;
     background-size: cover;
     height: 275px;
-    margin: 40px 10px ;
+    margin: 3.5rem ;
     border-radius: 50%;
-    border: 2px solid #000;
     float: left;
     width: 33%;
 }
@@ -228,56 +235,25 @@ input{
     border-radius: 5px;
     width: 70%;
 }
-.left-side-contact {
+.contact {
     height: 600px;
-    border: 2px solid #000;
     width: 32%;
-    margin-left: 10px;
-    float: left;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
 }
 textarea{ 
-    margin: 10px 20px;
+    margin: 1rem 3rem;
     overflow: auto;
-    font-size: 15px;
+    font-size: 1.25rem;
 }
    
 .submit{
-    padding: 20px;
-    margin: 41px;
+    position: relative;
+    top: 1.5rem;
+    right: 1rem;
     border: 2px solid #000;
     border-radius: 15px;
     background-color:#ecd9ba ;
-}
-.right-side-contact{
-    height: 600px;
-    border: 2px solid #000;
-    width: 32%;
-    margin-right: 10px;
-    float: right;
-}
-.right-side-contact h3{
-    font-size: 200%;
-}
-.call{
-    padding: 40px;
-    margin: 20px ;
-    border: 2px solid #000;
-    border-radius: 15px;
-    
-}
-tr {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
-
-tr, th, td {
-	text-align: left;
-}
-
-th, td {
-	border: 1px solid black;
-	padding: 5px;
-}
-.grid{
-    margin-left: 20px;
+    padding: 20px;
 }
