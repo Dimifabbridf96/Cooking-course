@@ -48,12 +48,7 @@ nav{
 .contact-menu{
     float: right;
 }
-footer{
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
+
 .welcome{
     text-align: center;
     letter-spacing: 4px;
@@ -65,11 +60,16 @@ footer{
     color: #fff;
 }
 .school{
-    height: 400px;
+    min-height: 400px;
+    height: auto;
 }
 .container{
     display: flex;
     gap: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: row;
 }
 #hero-image{
     background: url(../image/cooking-course.jpg) no-repeat center center;
@@ -80,29 +80,39 @@ footer{
     border: 2px solid #000;
     float: left;
     width: 30%;
+    flex-grow: 1;
 }
-
+.main{
+    margin: 3rem 0;
+    text-align: center;
+}
 .center{
     text-align: center;
-    margin: 1rem 0;
+    margin: 3rem 0;
 }
 .right{
   width: 60%;
   margin: 1rem 1.25rem;
   float: right;
   text-align: left;
+  flex-grow: 2;
 }
-
+.content{
+    min-height: 400px;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+.content h2{
+    text-align: center;
+}
 .left-side{
-    height: 300px;
+    height: auto;
     width: 32%;
     margin-left: 10px;
     float: left;
 }
 
-.left-side h2{
-    text-align: center;
-}
+
 .left-side p{
     font-size: 1.5rem;
     margin: 0 7.5px;
@@ -117,29 +127,30 @@ footer{
 }
     .knife{  
         background: url(../image/knife.jpeg) no-repeat center center;
-    background-size: cover;
+    background-size: 200%;
     }
   
 .center-side{
-    height: 300px;
+    height: auto;
     width: 32%;
 }
+
 .right-side a{
     font-size: 1.75rem;
     text-decoration: none;
     margin-left: 40px;
-
 }
+
 .butter{
     background: url(../image/cooking\ tec.jpg) no-repeat center center;
-    background-size: contain;
+    background-size: cover;
 }
 .right-side p{
     font-size: 1.5rem;
     margin: 0 50px;
 }
 .right-side{
-    height: 300px;
+    height: auto;
     width: 32%;
 }
 .ingredients{
@@ -256,4 +267,27 @@ textarea{
     border-radius: 15px;
     background-color:#ecd9ba ;
     padding: 20px;
+}
+
+@media screen and (max-width:1440px){
+    #hero-image{
+        width: 50%;
+    }
+}
+@media screen and (max-width:653px) {
+    .container,.box{
+        flex-direction: column;
+    }
+     .right{
+       margin: 0 auto;
+       margin-top: 3rem;
+   }
+   #hero-image{
+       width: 90%;
+      margin: 10px 10px;
+   }
+    .left-side, .right-side, .center-side{
+        width: 100%;
+    }
+    
 }
