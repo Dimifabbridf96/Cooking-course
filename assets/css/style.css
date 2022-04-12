@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Castoro:ital@1&family=Merienda:wght@700&family=Parisienne&family=Yrsa:ital,wght@1,500&display=swap');
+
 *{
     margin: 0;
     border: 0;
@@ -17,6 +19,19 @@ header{
 }
 h1{
     font-size: 175%;
+    font-family: Parisienne,sans-serif;
+}
+h2{
+    font-family: Merienda,sans-serif;
+}
+h3{
+    font-family:"Cantata One",sans-serif ;
+}
+h4{
+    font-family: Castoro, sans-serif;
+}
+p{
+    font-family: Yrsa, sans-serif;
 }
 /* navigation links */
 #menu{
@@ -32,6 +47,7 @@ h1{
 #menu a{
     text-decoration: none;
     color: #000;
+    font-family: "Cantata One",sans-serif;
     
 }
 
@@ -82,16 +98,12 @@ h1{
     background: url(../image/cooking-course.jpg) no-repeat center center;
     background-size: cover;
     height: 275px;
-    margin: 0 20px;
+    margin: 4.25rem 20px;
     border-radius: 50%;
 
     float: left;
     width: 30%;
     flex-grow: 1;
-}
-.main{
-    margin: 3rem 0;
-    text-align: center;
 }
 .center{
     text-align: center;
@@ -99,11 +111,16 @@ h1{
 }
 .right{
   width: 60%;
-  margin: 1rem 1.25rem;
+  margin: 3rem 1.25rem;
   float: right;
   text-align: left;
   flex-grow: 2;
 }
+.main{
+    margin: 3rem 0;
+    text-align: center;
+}
+
 .content{
     min-height: 400px;
     height: auto;
@@ -114,7 +131,7 @@ h1{
 }
 .container{
     display: flex;
-    gap: 30px;
+    gap: 10px;
     justify-content: space-evenly;
 }
 .container a{
@@ -128,9 +145,9 @@ h1{
     height: auto;
     width: 32%;
     float: left;
+box-shadow: 10px 10px 5px lightblue;
+    
 }
-
-
 .left-side p{
     font-size: 1.5rem;
     margin: 0 7.5px;
@@ -147,6 +164,7 @@ h1{
 .center-side{
     height: auto;
     width: 32%;
+    box-shadow: 10px 10px 5px #ebecec;
 }
 
 .butter{
@@ -160,6 +178,7 @@ h1{
 .right-side{
     height: auto;
     width: 32%;
+    box-shadow: 10px 10px 5px lightblue;
 }
 .ingredients{
     background: url(../image/Cooking-Guides-Ingredient-Guides-Cooking-Ingredients-1060x397.jpg) no-repeat center center;
@@ -201,12 +220,18 @@ text-align: center;}
 }
 
 .row{
-    min-height: 400px;
+    min-height: 435px;
     height: auto;
+}
+.right-course-knife{
+    margin: 1.5rem 0.25rem;
+    width: 60%;
+    float: right;
+    text-align: left;
 }
 .right-course{
     width: 60%;
-    margin: 0 0.25rem;
+    margin: 3rem 0.25rem;
     float: right;
     text-align: left;
   }
@@ -214,7 +239,7 @@ text-align: center;}
     background: url(../image/knife.jpg) no-repeat center center;
     background-size: cover;
     height: 275px;
-    margin: 0rem 1rem;
+    margin: 3rem 1rem;
     border-radius: 50%;
     float: left;
     width: 33%;
@@ -270,7 +295,7 @@ input{
 .contact {
    min-height: 600px;
    height: auto;
-    margin: 0 auto;
+    margin: 0.5rem auto;
     width: 60%;
     text-align: center;
     display: flex;
@@ -279,9 +304,9 @@ input{
    
 }
 textarea{ 
-    margin: 1rem 3rem;
     overflow: auto;
     font-size: 1.25rem;
+    margin: 20px;
 }
    
 .submit{
