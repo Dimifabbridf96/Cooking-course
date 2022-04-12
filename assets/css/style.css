@@ -8,22 +8,20 @@ font-size: 1.25rem
 }
 /* headings and logo */
 header{
-    height: 100px;
+    height: 80px;
     background-color: #ffffcd;
 }
 #logo{
     float: left;
-
+ padding: 20px 20px;
 }
 h1{
     font-size: 175%;
 }
-#logo, #menu{
-    padding: 20px 20px;
-}
 /* navigation links */
 #menu{
     text-align: center;
+    padding: 1.75rem 20px;
 }
 
 #menu li{
@@ -59,10 +57,8 @@ h1{
    background-size: cover;
 }
 .welcome h2{
-    padding: 150px 150px;
     position: relative;
     top: 50%;
-    left: 50%;
 }
 .welcome h2, .welcome i{
     color: #fff;
@@ -73,7 +69,8 @@ h1{
     min-height: 400px;
     height: auto;
 }
-.container{
+
+.pale{
     display: flex;
     gap: 30px;
 }
@@ -87,7 +84,7 @@ h1{
     height: 275px;
     margin: 0 20px;
     border-radius: 50%;
-    border: 2px solid #000;
+
     float: left;
     width: 30%;
     flex-grow: 1;
@@ -115,10 +112,21 @@ h1{
 .content h2{
     text-align: center;
 }
+.container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.container a{
+    float: right;
+    font-size: 1.5rem;
+    padding:10px 10px;
+    text-decoration: none;
+    color: #000;
+}
 .left-side{
     height: auto;
     width: 32%;
-    margin-left: 10px;
     float: left;
 }
 
@@ -127,11 +135,7 @@ h1{
     font-size: 1.5rem;
     margin: 0 7.5px;
 }
-.left-side a{
-    font-size: 1.75rem;
-    text-decoration: none;
-    margin-left: 40px;
-}
+
 .top{
     height: 100px;
 }
@@ -143,12 +147,6 @@ h1{
 .center-side{
     height: auto;
     width: 32%;
-}
-
-.right-side a{
-    font-size: 1.75rem;
-    text-decoration: none;
-    margin-left: 40px;
 }
 
 .butter{
@@ -171,11 +169,6 @@ h1{
     font-size: 1.5rem;
     margin: 0 50px;
 }
-.center-side a{
-    font-size: 1.75rem;
-    text-decoration: none;
-    margin-left: 40px;
-}
 .social-networks{
     background-color: #ffffcd;
     height: 100px;
@@ -189,14 +182,20 @@ h1{
 .social-networks a{
     color: #000;
 }
+.social-networks p{
+    padding-top: 10px;
+}
 
 .themes{
-    line-height: 300px;
+    height: 300px;
      background: url(../image/Chefs-Compliments-fish-lesson.jpeg) no-repeat center center;
     background-size: cover;
-    text-align: center;
     color: #fff;
 }
+.themes h2{
+    position: relative;
+    top: 50%;
+text-align: center;}
 .grey{
     background-color:#e3e4e5 ;
 }
@@ -207,7 +206,7 @@ h1{
 }
 .right-course{
     width: 60%;
-    margin: 4rem 0.25rem;
+    margin: 0 0.25rem;
     float: right;
     text-align: left;
   }
@@ -215,7 +214,7 @@ h1{
     background: url(../image/knife.jpg) no-repeat center center;
     background-size: cover;
     height: 275px;
-    margin: 5rem 1rem;
+    margin: 0rem 1rem;
     border-radius: 50%;
     float: left;
     width: 33%;
@@ -239,14 +238,20 @@ h1{
     width: 33%;
 }
 .us{
-    margin: 1rem 0;
-    text-align: center;
+   position: relative;
+   top: 50%;
+   text-align: center;
+   color: #fff;
+}
+.contact-image{
+    height:300px ;
+    background: url(../image/sfondo-contatti-eng.jpg) center center no-repeat;
+    background-size: cover;
 }
 #contact-form{
     min-height: 700px;
     height: auto;
     width: 80%;
-    background-color: #d2d2d2;
     margin: 0 auto;
 }
 label{
@@ -270,6 +275,7 @@ input{
     text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
    
 }
 textarea{ 
@@ -293,7 +299,26 @@ textarea{
         width: 50%;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:1100px){
+    .contact-image{
+        background: url(../image/sfondo_contattaci.jpg) center right no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width:900px){
+    .pale,.container{
+        flex-direction: column;
+    }
+    #hero-image{
+        width: 95%;
+    }
+    .right{
+        width: 95%;
+        text-align: center;
+    }
+    .left-side, .right-side, .center-side{
+        width: 100%;
+    }
     .left-knife,.left-ingredients,.left-techniques{
         width: 95%;
         margin: 1rem 1rem;
@@ -313,7 +338,10 @@ textarea{
     float: none;
 padding:20px 0 10px 0;}
 header{
-    height: 200px;
+    height: 130px;
+}
+#menu{
+    padding-top: 0.75rem;
 }
 
 #menu li{
@@ -325,9 +353,6 @@ header{
 
 }
 @media screen and (max-width:653px) {
-    .container,.box{
-        flex-direction: column;
-    }
      .right{
        margin: 0 auto;
        margin-top: 3rem;
@@ -336,9 +361,7 @@ header{
        width: 90%;
       margin: 10px 10px;
    }
-    .left-side, .right-side, .center-side{
-        width: 100%;
-    }
+  
     
 }
 @media screen and (max-width:473px){
