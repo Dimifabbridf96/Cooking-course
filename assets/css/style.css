@@ -364,7 +364,7 @@ textarea{
       gap:20px;
   }
 }
-@media screen and (max-width:725px){
+@media screen and (max-width:768px){
     #logo{
         text-align: center;
     float: none;
