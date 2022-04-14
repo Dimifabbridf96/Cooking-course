@@ -34,6 +34,10 @@ p{
     font-family: Yrsa, sans-serif;
 }
 /* navigation links */
+#logo,#menu{
+    letter-spacing: 2px;
+
+}
 #menu{
     text-align: center;
     padding: 1.75rem 20px;
@@ -50,21 +54,17 @@ p{
     font-family: "Cantata One",sans-serif;
     
 }
-
 .active{
     border-bottom: 1px solid #000;
 }
 #menu a:hover{
     border-bottom: 1px solid #000;
 }
-#logo,#menu{
-    letter-spacing: 2px;
 
-}
 .contact-menu{
     float: right;
 }
-
+/* banner-top-homepage */
 .welcome{
     text-align: center;
     letter-spacing: 4px;
@@ -78,21 +78,19 @@ p{
 }
 .welcome h2, .welcome i{
     color: #fff;
-   
-    
+   /* Middle section homepage */    
 }
 .school{
     min-height: 400px;
     height: auto;
 }
-
+.center{
+    text-align: center;
+    margin: 3rem 0;
+}
 .pale{
     display: flex;
     gap: 30px;
-}
-.box{
-    display: flex;
-    flex-direction: column;
 }
 #hero-image{
     background: url(../image/cooking-course.jpg) no-repeat center center;
@@ -105,10 +103,7 @@ p{
     width: 30%;
     flex-grow: 1;
 }
-.center{
-    text-align: center;
-    margin: 3rem 0;
-}
+
 .right{
   width: 60%;
   margin: 3rem 1.25rem;
@@ -116,17 +111,17 @@ p{
   text-align: left;
   flex-grow: 2;
 }
-.main{
-    margin: 3rem 0;
-    text-align: center;
-}
-
+/* Bottom section homepage */
 .content{
     min-height: 400px;
     height: auto;
     margin-bottom: 1.5rem;
 }
 .content h2{
+    text-align: center;
+}
+.main{
+    margin: 3rem 0;
     text-align: center;
 }
 .container{
@@ -141,18 +136,17 @@ p{
     text-decoration: none;
     color: #000;
 }
+/* Left side */
 .left-side{
     height: auto;
     width: 32%;
     float: left;
-box-shadow: 10px 10px 5px lightblue;
-    
+box-shadow: 10px 10px 5px #8d8d8d;
 }
 .left-side p{
     font-size: 1.5rem;
     margin: 0 7.5px;
 }
-
 .top{
     height: 100px;
 }
@@ -160,34 +154,35 @@ box-shadow: 10px 10px 5px lightblue;
         background: url(../image/knife.jpeg) no-repeat center center;
     background-size: 200%;
     }
-  
+  /* Center side */
 .center-side{
     height: auto;
     width: 32%;
-    box-shadow: 10px 10px 5px #ebecec;
-}
-
-.butter{
-    background: url(../image/cooking\ tec.jpg) no-repeat center center;
-    background-size: cover;
-}
-.right-side p{
-    font-size: 1.5rem;
-    margin: 0 50px;
-}
-.right-side{
-    height: auto;
-    width: 32%;
-    box-shadow: 10px 10px 5px lightblue;
-}
-.ingredients{
-    background: url(../image/Cooking-Guides-Ingredient-Guides-Cooking-Ingredients-1060x397.jpg) no-repeat center center;
-    background-size: cover;
+    box-shadow: 10px 10px 5px #8d8d8d;
 }
 .center-side p{
     font-size: 1.5rem;
     margin: 0 50px;
 }
+.butter{
+    background: url(../image/cooking\ tec.jpg) no-repeat center center;
+    background-size: cover;
+}
+/* Right side */
+.right-side{
+    height: auto;
+    width: 32%;
+    box-shadow: 10px 10px 5px #8d8d8d;
+}
+.right-side p{
+    font-size: 1.5rem;
+    margin: 0 50px;
+}
+.ingredients{
+    background: url(../image/Cooking-Guides-Ingredient-Guides-Cooking-Ingredients-1060x397.jpg) no-repeat center center;
+    background-size: cover;
+}
+/* Footer */
 .social-networks{
     background-color: #ffffcd;
     height: 100px;
@@ -197,14 +192,17 @@ box-shadow: 10px 10px 5px lightblue;
     display: inline;
     margin: 20px 15px;
     font-size: 2rem;
+    position: relative;
+    top: 1rem;
 }    
 .social-networks a{
     color: #000;
 }
 .social-networks p{
-    padding-top: 10px;
+    position: relative;
+    top: 1.5rem;
 }
-
+/* Banner top course page */
 .themes{
     height: 300px;
      background: url(../image/Chefs-Compliments-fish-lesson.jpeg) no-repeat center center;
@@ -214,27 +212,18 @@ box-shadow: 10px 10px 5px lightblue;
 .themes h2{
     position: relative;
     top: 50%;
-text-align: center;}
-.grey{
-    background-color:#e3e4e5 ;
+text-align: center;
 }
-
+/* Content course page */
+.box{
+    display: flex;
+    flex-direction: column;
+}
+/* Top content course page*/
 .row{
     min-height: 435px;
     height: auto;
 }
-.right-course-knife{
-    margin: 1.5rem 0.25rem;
-    width: 60%;
-    float: right;
-    text-align: left;
-}
-.right-course{
-    width: 60%;
-    margin: 3rem 0.25rem;
-    float: right;
-    text-align: left;
-  }
 .left-knife{
     background: url(../image/knife.jpg) no-repeat center center;
     background-size: cover;
@@ -243,6 +232,16 @@ text-align: center;}
     border-radius: 50%;
     float: left;
     width: 33%;
+}
+.right-course-knife{
+    margin: 1.5rem 0.25rem;
+    width: 60%;
+    float: right;
+    text-align: left;
+}
+/* Middle content */
+.grey{
+    background-color:#e3e4e5 ;
 }
 .left-techniques{
     background: url(../image/cooking\ tec.jpg) no-repeat center center;
@@ -253,6 +252,13 @@ text-align: center;}
     float: left;
     width: 33%;
 }
+.right-course{
+    width: 60%;
+    margin: 3rem 0.25rem;
+    float: right;
+    text-align: left;
+}
+/* Bottom content */
 .left-ingredients{
     background: url(../image/ingredients.jpg) no-repeat center center;
     background-size: cover;
@@ -262,17 +268,19 @@ text-align: center;}
     float: left;
     width: 33%;
 }
+/* Banner top contact us */
+.contact-image{
+    height:300px ;
+    background: url(../image/sfondo_contattaci.jpg) center right no-repeat;
+    background-size: cover;
+}
 .us{
    position: relative;
    top: 50%;
    text-align: center;
    color: #fff;
 }
-.contact-image{
-    height:300px ;
-    background: url(../image/sfondo-contatti-eng.jpg) center center no-repeat;
-    background-size: cover;
-}
+/* Contact form */
 #contact-form{
     min-height: 700px;
     height: auto;
@@ -318,16 +326,10 @@ textarea{
     background-color:#ecd9ba ;
     padding: 20px;
 }
-
+/* Media queries */
 @media screen and (max-width:1440px){
     #hero-image{
         width: 50%;
-    }
-}
-@media screen and (max-width:1100px){
-    .contact-image{
-        background: url(../image/sfondo_contattaci.jpg) center right no-repeat;
-        background-size: cover;
     }
 }
 @media screen and (max-width:900px){
@@ -336,10 +338,12 @@ textarea{
     }
     #hero-image{
         width: 95%;
+        margin: 1rem 20px;
     }
     .right{
         width: 95%;
         text-align: center;
+        margin: 0 1.25rem;
     }
     .left-side, .right-side, .center-side{
         width: 100%;
@@ -348,13 +352,16 @@ textarea{
         width: 95%;
         margin: 1rem 1rem;
     }
-  .right-course{
-     margin: 0 0 2.25rem 0;
-      width: 100%;
+  .right-course,.right-course-knife{
+     margin: 0 1rem 2.25rem 0;
+      width: 95%;
      text-align: center;
   }
   .contact{
       Width:75%;
+  }
+  .container{
+      gap:20px;
   }
 }
 @media screen and (max-width:725px){
@@ -368,14 +375,12 @@ header{
 #menu{
     padding-top: 0.75rem;
 }
-
 #menu li{
     padding:5px;
 }
 .contact-menu{
     float: none;
 }
-
 }
 @media screen and (max-width:653px) {
      .right{
@@ -386,15 +391,22 @@ header{
        width: 90%;
       margin: 10px 10px;
    }
-  
-    
+   .left-knife,.left-ingredients,.left-techniques{
+       margin: 1rem 0.5rem;
+   }
+   .right-course,.right-course-knife{
+    margin: 0 0.75rem 2.25rem 0;
+   }
 }
-@media screen and (max-width:473px){
+@media screen and (max-width:541px){
     #menu li{
         display: block;
         list-style-type: none;
     }
     .contact{
         width: 100%;
+    }
+    header{
+        height: 200px;
     }
 }
