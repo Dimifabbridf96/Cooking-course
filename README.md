@@ -3,7 +3,7 @@
 
 I built the Cooking course website following one of my passion that is the culinary world having the chance to share with who is interested to learn something new on this matter my knowledges gained with a personal experience. 
 
-<img src="assets/image/responsivness.jpg" alt="photo of website responsivenss">
+<img src="assets/image/responsivness.png" alt="screenshot of website responsivness">
 
 <br>
 
@@ -73,4 +73,61 @@ __Contact us form__
 
 <img src="assets/image/contactus-form.png" alt="A screenshot of the contact us form on the Contact us page">
 
+## Testing
+<hr>
 
+* I tested that this pages work in fifferent browswer: Firefox, Chrome and Microsoft Edge.
+* I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+* I have tested the field on the contact us form and they all work by accepting only email in the email field, with a submit button that work as expected.
+
+## Validator Testing 
+
+### HTML
+* No errors were returned when passing through the official W3C validator.
+
+### CSS 
+* No errors were found when passing through the official (Jigsaw) validator.
+
+### Accessibility
+
+* I confirm that after passing through the Lighthouse in devtool the font choose is clearly readable.
+
+### Performance
+__Homepage__
+
+<img src="assets/image/homepage-performance.png" alt="A screenshot of homepage's performance ">
+
+__Course__
+
+<img src="assets/image/Course-performance.png" alt="A screenshot of course's performance">
+
+__Contact us__
+
+<img src="assets/image/contact-us performance.png" alt="A screenshot of contact us' performance">
+
+### Deployment
+<hr>
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+ - In the GitHub repository, navigate to the Settings tab
+ - From the source section drop-down menu, select the Master Branch
+ - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+live link here - https://dimifabbridf96.github.io/Cooking-course/
+
+### Credits
+<hr>
+
+__Content__
+* The code for social media links was taken from the CI Love Running Project.
+* The code for form action in contact us page was taken from the CI Love Running Project. 
+
+__Media__
+
+* The background images in all the pages was taken from Google images.
+* Favicon was downloaded with permission from freefavicon.
+
+### Reference Material
+<hr>
+
+* Used W3School for deepen some topic for site improving such as shadowing of boxes, flexbox attribute and for have further knowledge about what I have studied with Code Institute during the site development. 
