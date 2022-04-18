@@ -69,7 +69,7 @@ p{
     text-align: center;
     letter-spacing: 4px;
    height: 300px;
-   background:url(../image/benner-homepage.jpg) no-repeat center center;
+   background:url(../image/banner-homepage.jpg) no-repeat center center;
    background-size: cover;
 }
 .welcome h2{
@@ -93,7 +93,7 @@ p{
     gap: 30px;
 }
 #hero-image{
-    background: url(../image/hero-image.jpg) no-repeat center center;
+    background: url(../image/hero-image.webp) no-repeat center center;
     background-size: cover;
     height: 275px;
     margin: 4.25rem 20px;
@@ -205,7 +205,7 @@ box-shadow: 10px 10px 5px #8d8d8d;
 /* Banner top course page */
 .themes{
     height: 300px;
-     background: url(../image/banner-course.jpg) no-repeat center center;
+     background: url(../image/banner-course.webp) no-repeat center center;
     background-size: cover;
     color: #fff;
 }
@@ -271,7 +271,7 @@ text-align: center;
 /* Banner top contact us */
 .contact-image{
     height:300px ;
-    background: url(../image/banner-contactus.jpg) center right no-repeat;
+    background: url(../image/banner-contactus.webp) center right no-repeat;
     background-size: cover;
 }
 .us{

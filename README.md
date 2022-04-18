@@ -7,6 +7,26 @@ I built the Cooking course website following one of my passion that is the culin
 
 <br>
 
+## Strategy Plane
+
+* Taste & Passion is intended to be a cooking course web site where who is interested to gain new knowledges on the culinary world is welcome and can learn already from the description on the different pages some undestanding about this challenging carreer or just new passion.
+
+## Site Goals
+
+* Provide to the user an opportunity to cultivate a passion.
+* Provide an easy undestanding on what consist the lessons.
+* Ensure an easy navigation through the site.
+* Ensure a pleasant navigation with images that describe the different themes addressed.
+* Create an interest to all the users that they are also just sligthly interested to the topic to apply and discover this very interesting world.
+
+## User Stories
+
+* As a user I want to find a professional description of the topics that give me the desire to apply to this course.
+* As a user I want to have the chance to contact the course organizer to ask further information.
+* As a user I want to have an explanation of the themes addressed on this course.
+* As a user I want to have access to the site from different devices.
+
+
 ## Wireframe 
 <hr>
 <img src="assets/image/homepage.png" alt="A screenshot of the homepage wireframe"><img src="assets/image/cooking-course- content.png"alt="A screenshot of the cooking course wireframe"><img src="assets/image/contactus.png"alt="A screenshot of the contact us wireframe">
@@ -73,6 +93,12 @@ __Contact us form__
 
 <img src="assets/image/contact-us-form.png" alt="A screenshot of the contact us form on the Contact us page">
 
+## Future Enhancements
+
+* Add a Gallery Page where upload the photos shotted during the lessons.
+* Add a review section to give the chance to the students to express the impression about the course, the experience and maybe recommend it to the users that are interest to apply.
+* Add new sections about other culinary sectors that can be covered.
+
 ## Testing
 <hr>
 
@@ -93,6 +119,7 @@ __Contact us form__
 * I confirm that after passing through the Lighthouse in devtool the font choose is clearly readable.
 
 ### Performance
+
 __Homepage__
 
 <img src="assets/image/homepage-performance.png" alt="A screenshot of homepage's performance ">
@@ -103,7 +130,7 @@ __Course__
 
 __Contact us__
 
-<img src="assets/image/contact-us performance.png" alt="A screenshot of contact us' performance">
+<img src="assets/image/contactus-performance.png" alt="A screenshot of contact us' performance">
 
 ### Deployment
 <hr>
@@ -124,10 +151,14 @@ __Content__
 
 __Media__
 
-* The background images in all the pages was taken from Google images.
+* The background images in all the pages was taken from Pexels.
 * Favicon was downloaded with permission from freefavicon.
 
 ### Reference Material
 <hr>
 
 * Used W3School for deepen some topic for site improving such as shadowing of boxes, flexbox attribute and for have further knowledge about what I have studied with Code Institute during the site development. 
+
+## Acknowledgements
+
+* I would like to thank my mentor Rahul Lakhanpal that helps me with my doubts during the development of this project giving me advice on how improve the site and the final look.
