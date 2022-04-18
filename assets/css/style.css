@@ -69,7 +69,7 @@ p{
     text-align: center;
     letter-spacing: 4px;
    height: 300px;
-   background:url(../image/the-original-innovators-FT-MAG0220-2000.jpg) no-repeat center center;
+   background:url(../image/benner-homepage.jpg) no-repeat center center;
    background-size: cover;
 }
 .welcome h2{
@@ -93,7 +93,7 @@ p{
     gap: 30px;
 }
 #hero-image{
-    background: url(../image/cooking-course.jpg) no-repeat center center;
+    background: url(../image/hero-image.jpg) no-repeat center center;
     background-size: cover;
     height: 275px;
     margin: 4.25rem 20px;
@@ -151,7 +151,7 @@ box-shadow: 10px 10px 5px #8d8d8d;
     height: 100px;
 }
     .knife{  
-        background: url(../image/knife.jpeg) no-repeat center center;
+        background: url(../image/knifeskills.jpg) no-repeat center center;
     background-size: 200%;
     }
   /* Center side */
@@ -165,7 +165,7 @@ box-shadow: 10px 10px 5px #8d8d8d;
     margin: 0 50px;
 }
 .butter{
-    background: url(../image/cooking\ tec.jpg) no-repeat center center;
+    background: url(../image/tuna.jpg) no-repeat center center;
     background-size: cover;
 }
 /* Right side */
@@ -179,15 +179,10 @@ box-shadow: 10px 10px 5px #8d8d8d;
     margin: 0 50px;
 }
 .ingredients{
-    background: url(../image/Cooking-Guides-Ingredient-Guides-Cooking-Ingredients-1060x397.jpg) no-repeat center center;
+    background: url(../image/ingredientsbanner.jpg) no-repeat center center;
     background-size: cover;
 }
 /* Footer */
-.footer{
-    position: absolute;
-    bottom:0;
-    width: 100%;
-}
 .social-networks{
     background-color: #ffffcd;
     height: 100px;
@@ -210,7 +205,7 @@ box-shadow: 10px 10px 5px #8d8d8d;
 /* Banner top course page */
 .themes{
     height: 300px;
-     background: url(../image/Chefs-Compliments-fish-lesson.jpeg) no-repeat center center;
+     background: url(../image/banner-course.jpg) no-repeat center center;
     background-size: cover;
     color: #fff;
 }
@@ -230,7 +225,7 @@ text-align: center;
     height: auto;
 }
 .left-knife{
-    background: url(../image/knife.jpg) no-repeat center center;
+    background: url(../image/knifeskills.jpg) no-repeat center center;
     background-size: cover;
     height: 275px;
     margin: 4rem 1rem;
@@ -249,7 +244,7 @@ text-align: center;
     background-color:#e3e4e5 ;
 }
 .left-techniques{
-    background: url(../image/cooking\ tec.jpg) no-repeat center center;
+    background: url(../image/left-techniques.jpg) no-repeat center center;
     background-size: cover;
     height: 275px;
     margin: 5rem 1rem ;
@@ -276,12 +271,13 @@ text-align: center;
 /* Banner top contact us */
 .contact-image{
     height:300px ;
-    background: url(../image/sfondo_contattaci.jpg) center right no-repeat;
+    background: url(../image/banner-contactus.jpg) center right no-repeat;
     background-size: cover;
 }
 .us{
    position: relative;
    top: 50%;
+  
    text-align: center;
    color: #fff;
 }
@@ -291,6 +287,7 @@ text-align: center;
     height: auto;
     width: 80%;
     margin: 0 auto;
+    padding: 40px 0 10px 0;
 }
 label{
     margin: 20px;
@@ -335,6 +332,9 @@ textarea{
 @media screen and (max-width:1440px){
     #hero-image{
         width: 50%;
+    }
+    .us,.welcome h2,.themes h2{
+        right: 10%;
     }
 }
 @media screen and (max-width:900px){
@@ -385,6 +385,9 @@ header{
 }
 .contact-menu{
     float: none;
+}
+.us,.welcome h2,.themes h2{
+    right: 0;
 }
 }
 @media screen and (max-width:653px) {
