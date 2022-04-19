@@ -1,23 +1,22 @@
 
 # Cooking course
 
-I built the Cooking course website following one of my passion that is the culinary world having the chance to share with who is interested to learn something new on this matter my knowledges gained with a personal experience. 
-
+I built the Cooking course website following one of my passion that is the culinary world, having the chance to share my knowledges gained through personal experiences, with whoever is interested to learn something new in the field.
 <img src="assets/image/responsivness.png" alt="screenshot of website responsivness">
 
 <br>
 
 ## Strategy Plane
 
-* Taste & Passion is intended to be a cooking course web site where who is interested to gain new knowledges on the culinary world is welcome and can learn already from the description on the different pages some undestanding about this challenging carreer or just new passion.
+* Taste & Passion is intended to be a cooking course website, where whoever is interested in gaining new knowledges on the culinary world is welcome. Users could already gain some undestanding about this challenging carreer from the description on the different pages, or it could be just an opportunity for them to develop a new passion.
 
 ## Site Goals
 
-* Provide to the user an opportunity to cultivate a passion.
-* Provide an easy undestanding on what consist the lessons.
+* Provide the user with an opportunity to cultivate a passion.
+* Provide an easy undestanding on what the lessons consist of.
 * Ensure an easy navigation through the site.
 * Ensure a pleasant navigation with images that describe the different themes addressed.
-* Create an interest to all the users that they are also just sligthly interested to the topic to apply and discover this very interesting world.
+* Create a matter of interest amongst the users, to attract them so that they can apply and discover this very interesting world.
 
 ## User Stories
 
@@ -37,24 +36,24 @@ I built the Cooking course website following one of my passion that is the culin
  __Navigation__ 
 
  * On top of the pages we can find the navigation bar. On the left side there is the course name: Taste & Passion.
- * On the center  are two links for different pages: the Homepage (Home) and Course content (Cooking course).
+ * At the center there are two links for different pages: the Homepage (Home) and Course content (Cooking course).
  * On the right side of the navigation bar there is a link for the contact us page.
- * The navigation bar's links help the users with simple and direct names to navigate accross the site's pages.  
+ * The navigation bar's links help the users navigate accross the site's pages with simple and direct names.  
 
 <img src="assets/image/navbar.png" alt="A screenshot of the navigation bar">
 
 __The banner__
-* The banner shows a welcome message to the course with a background image of raw materials on the homepage.
+* The banner shows a welcome message to the course with a background image of a dish full of spices on the homepage.
 * The banner shows an introduction at the course program with a background image of raw fish on the Cooking course.
 * The banner shows a welcome message to the course witha background image of raw materials on the homepage.
 
-<img src="assets/image/welcome-banner.png" alt="A screenshot of the homepage's banner">
+<img src="assets/image/welcomebanner.png" alt="A screenshot of the homepage's banner">
 <img src="assets/image/course-banner.png" alt="A screenshot of the Cooking course's banner">
 <img src="assets/image/contact-us-banner.png" alt="A screenshot of the Contact us' banner">
 
 __First section Homepage__
 * The first section shows on the left side the hero image represent a person making pasta.
-*  On the right side is shown the strenghts  the course is based on.
+*  On the right side is shown the strenghts the course is based on.
 
 <img src="assets/image/first-section.png" alt="A screenshot of first section on the homepage">
 
